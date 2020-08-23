@@ -183,14 +183,21 @@ def player_stats (sought_player_name)
       game_hash[place][attribute].each do |player|
         next unless player[:player_name] == sought_player_name
 
+<<<<<<< HEAD
         new_hash = player.each do |k, _v|
           k == :player_name
         end
+=======
+
+>>>>>>> 9de75f41dcb028cfd9539f34735a8f7a8068ec10
       end
     end
   end
   new_hash
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9de75f41dcb028cfd9539f34735a8f7a8068ec10
 end
 
 def big_shoe_rebounds
